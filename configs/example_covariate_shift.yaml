@@ -1,0 +1,49 @@
+output_dir: ../output_cs
+experiment:
+  M: 20
+  N: 10
+  current_distribution:
+    X1: poisson
+    X2: gaussian
+  k_max_value: 10
+  method: greedy_search
+  n_samples_per_env: 10
+  num_iterations: 3
+  seed: 0
+  seeds:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  true_theta_E_list:
+  - - 0.1
+    - 0.1
+    - 0.1
+    - 0.3
+    - 0.3
+    - 0.5
+    - 0.6
+    - 0.7
+    - 0.8
+    - 0.9
+  - - 0.1
+    - 0.1
+    - 0.4
+    - 0.4
+    - 0.6
+    - 0.6
+    - 0.6
+    - 0.9
+    - 0.9
+    - 0.9
+  - - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.9
+    - 0.9

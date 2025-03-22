@@ -1,0 +1,33 @@
+output_dir: ../output_cd
+experiment:
+  N: 5
+  direction: X2->X1
+  distributions: c_gaussian
+  k_max_value: 15
+  method: greedy_search
+  n_samples_per_env: 20
+  num_candidates: 8
+  seed: 0
+  seeds:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  true_theta_E:
+  - - 1.0
+    - 16.0
+    - 1.0
+  - - 1.0
+    - 16.0
+    - 1.0
+  - - 9.0
+    - 16.0
+    - 2.0
+  - - 9.0
+    - 25.0
+    - 2.5
+  - - 25.0
+    - 25.0
+    - 2.5
+
